@@ -1,0 +1,13 @@
+def print_menu():
+    print("\nOptions:")
+    print("1. List Guests")
+    print("2. List Events")
+    print("3. Create Event")
+    print("4. Update Event")
+    print("5. Delete Event")
+    print("6. Add Guest to Event")
+    print("7. Update Guest Info")
+    print("8. Delete Guest")
+    print("9. RSVP for Guest")
+    print("10. View Guests by RSVP Status")
+    print("11. Exit")
