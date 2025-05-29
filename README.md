@@ -11,7 +11,7 @@
 ├── Pipfile
 ├── Pipfile.lock
 ├── README.md
-├── lily/
+├── lib/
 │ ├── models/
 │ │ ├── init.py # ORM setup and DB connection
 │ │ ├── guest.py # Guest model
@@ -61,19 +61,19 @@ Create the database tables
 bash
 Copy
 Edit
-python lily/models/create_tables.py
+python lib/models/create_tables.py
 Seed the database (optional)
 
 bash
 Copy
 Edit
-python lily/seed.py
+python lib/seed.py
 Run the app
 
 bash
 Copy
 Edit
-python lily/cli.py
+python lib/cli.py
 🧪 Sample CLI Features (To Be Built)
 Add new guest or event
 
