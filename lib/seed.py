@@ -36,4 +36,4 @@ def seed_data():
     rsvp2 = RSVP(guest=guest2, event=event2, status="Maybe")
     session.add_all([rsvp1, rsvp2])
     session.commit()
-    print("🌱 Seed data created.")
+    print("Seed data created.")

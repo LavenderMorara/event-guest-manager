@@ -7,12 +7,12 @@ from lib.db import session as session
 
 
 def list_guests():
-    print("\n👥 Guests:")
+    print("\nGuests:")
     for guest in session.query(Guest).all():
         print(f"ID: {guest.id}, Name: {guest.name}, Email: {guest.email}")
 
 def list_events():
-    print("\n📅 Events:")
+    print("\n Events:")
     for event in session.query(Event).all():
         print(f"ID: {event.id}, Title: {event.title}, Location: {event.location}, Date: {event.date}")
         
